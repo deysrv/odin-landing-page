@@ -95,7 +95,7 @@ button{
     gap: 128px;
 }
 .cards{
-    width: 20vh;
+    width: 15vh;
 }
 .box{
     border: 2px solid #3882F6;
@@ -128,10 +128,11 @@ button{
 /* action section */
 .action{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
     margin: 48px;
+    border-radius: 8px;
 }
 .action .text{
     display: flex;
@@ -148,4 +149,13 @@ button{
     border: 2px solid #F9FAF8;
     padding: 8px;
     border-radius: 8px;
+    color: #F9FAF8;
+}
+
+/* footer part */
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 12px;
+    color: #F9FAF8;
 }
