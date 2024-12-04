@@ -125,3 +125,27 @@ button{
     align-self: flex-end;
     font-weight: bold;
 }
+/* action section */
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 48px;
+}
+.action .text{
+    display: flex;
+    flex-direction: column;
+}
+.text-1{
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.text-2{
+    color: #E5E7EB;
+}
+.sign-up-2{
+    border: 2px solid #F9FAF8;
+    padding: 8px;
+    border-radius: 8px;
+}
